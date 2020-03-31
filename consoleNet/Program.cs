@@ -11,6 +11,7 @@ namespace consoleNet
         static void Main(string[] args)
         {
             Console.WriteLine("Hello");
+            Console.WriteLine("1st line after switching develop branch!");
         }
     }
 }
