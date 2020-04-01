@@ -8,13 +8,28 @@ namespace consoleNet
 {
     class Program
     {
-        private static bool result = false;
-
         static void Main(string[] args)
         {
-            if (result)
+            bool isTrue = true;
+
+            if (isTrue == true)
             {
-                Console.WriteLine(result);
+                Console.WriteLine("1");
+            }
+
+            if (isTrue == false)
+            {
+                Console.WriteLine("2");
+            }
+
+            bool IsBoolMethod()
+            {
+                return true;
+            }
+
+            if (IsBoolMethod() == false)
+            {
+                Console.WriteLine("3");
             }
             Console.WriteLine("Hello");
             Console.WriteLine("1st line after switching develop branch!");
