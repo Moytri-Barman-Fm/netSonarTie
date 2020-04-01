@@ -8,9 +8,16 @@ namespace consoleNet
 {
     class Program
     {
+        private static bool result = false;
+
         static void Main(string[] args)
         {
+            if (result)
+            {
+                Console.WriteLine(result);
+            }
             Console.WriteLine("Hello");
+            Console.WriteLine("1st line after switching develop branch!");
         }
     }
 }
